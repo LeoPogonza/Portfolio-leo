@@ -63,18 +63,18 @@ a:hover {
   cursor: default;
 }
 
-/* HAMBURGUER MENU */
+/* hamburger MENU */
 
-#hamburguer-nav {
+#hamburger-nav {
   display: none;
 }
 
-.hamburguer-menu {
+.hamburger-menu {
   position: relative;
   display: inline-block;
 }
 
-.hamburguer-icon {
+.hamburger-icon {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -83,7 +83,7 @@ a:hover {
   cursor: pointer;
 }
 
-.hamburguer-icon span {
+.hamburger-icon span {
   width: 100%;
   height: 2px;
   background-color: black;
@@ -117,23 +117,23 @@ a:hover {
   max-height: 300px;
 }
 
-.hamburguer-icon.open span:first-child {
+.hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
 }
-.hamburguer-icon.open span:nth-child(2) {
+.hamburger-icon.open span:nth-child(2) {
   opacity: 0;
 }
-.hamburguer-icon.open span:last-child {
+.hamburger-icon.open span:last-child {
   transform: rotate(-45deg) translate(10px, -5px);
 }
 
-.hamburguer-icon span:first-child {
+.hamburger-icon span:first-child {
   transform: none;
 }
-.hamburguer-icon span:first-child {
+.hamburger-icon span:first-child {
   opacity: 1;
 }
-.hamburguer-icon span:first-child {
+.hamburger-icon span:first-child {
   transform: none;
 }
 
